@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089699701787",
+    "firebase_url": "https://csgofinder-2b856.firebaseio.com",
+    "project_id": "csgofinder-2b856",
+    "storage_bucket": "csgofinder-2b856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089699701787:android:2807103b1c37934f9004be",
+        "android_client_info": {
+          "package_name": "com.example.csgofinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089699701787-m32ce8jp8rib5tf869lmv57f0cup75d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4QuQ7t-3ek032r-ALoJLAb2j6GgRQA5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089699701787-m32ce8jp8rib5tf869lmv57f0cup75d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
