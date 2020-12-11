@@ -79,13 +79,13 @@ public class QueueFragment extends Fragment {
                         }
 
                         if (listOfPlayers.size() >= MAX_PLAYER && model.isPlay()){
-                            buttonPlay.setText("leave queue");
+                            buttonPlay.setText("Leave queue");
                             buttonPlay.setEnabled(true);
                         } else if (listOfPlayers.size() >= MAX_PLAYER){
-                            buttonPlay.setText("queue full");
+                            buttonPlay.setText("Queue full");
                             buttonPlay.setEnabled(false);
                         } else {
-                            buttonPlay.setText("look for player");
+                            buttonPlay.setText("Look for players");
                             buttonPlay.setEnabled(true);
                         }
 

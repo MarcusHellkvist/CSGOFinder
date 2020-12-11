@@ -38,6 +38,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="I want to play"
+        android:backgroundTint="@color/mBlue"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

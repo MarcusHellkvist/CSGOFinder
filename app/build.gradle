@@ -56,6 +56,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation "androidx.fragment:fragment:$fragment_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    implementation 'com.google.firebase:firebase-messaging'
+
 
 
 

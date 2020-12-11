@@ -52,11 +52,14 @@
         app:layout_constraintTop_toBottomOf="@+id/etProfileName" />
 
     <Button
-        android:id="@+id/btn_save"
+        android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/mBlue"
         android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

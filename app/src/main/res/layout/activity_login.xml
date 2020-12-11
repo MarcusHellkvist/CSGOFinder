@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/mBlack">
 
     <EditText
         android:id="@+id/etPasswordLogin"
@@ -25,6 +26,12 @@
         android:ems="10"
         android:hint="email"
         android:inputType="textEmailAddress"
+        android:shadowColor="@color/mWhite"
+        android:textColor="@color/mWhite"
+        android:textColorHighlight="@color/mWhite"
+        android:textColorHint="@color/mWhite"
+        android:textColorLink="@color/mWhite"
+        android:textCursorDrawable="@color/mWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,6 +41,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/mBlue"
+        android:textColor="@color/mWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPasswordLogin" />
@@ -43,6 +53,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register Account"
+        android:textAllCaps="false"
+        android:textColor="@color/mWhite"
+        android:backgroundTint="@color/mBlue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
